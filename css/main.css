@@ -382,17 +382,99 @@ button {
   margin: auto;
 }
 
-/*----------header----------*/
-.header {
-  background-color: #fff;
+.hero-title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 30px;
 }
 
-.heder-content {
-  display: flex;
+.advantages-title {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
 
-.navigation {
-  margin-right: auto;
+.list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin: 0;
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin: 0;
+  padding-top: 20px;
+  margin-bottom: 4px;
+}
+
+.footer-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+  padding-top: 72px;
+}
+
+.list-deskription {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-deskription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 
 .link-logotipe {
@@ -407,10 +489,6 @@ button {
   margin-right: 93px;
 }
 
-.part-logotipe {
-  color: #2196f3;
-}
-
 .link-header {
   font-weight: 500;
   font-size: 14px;
@@ -419,8 +497,163 @@ button {
   color: #212121;
 }
 
-.link-header:hover,
-.link-header:focus {
+.link-header:hover, .link-header:focus {
+  color: #2196f3;
+}
+
+.doing-text-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.link-block {
+  position: relative;
+}
+
+.link-block .doing-text-link {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "";
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+}
+
+.social-list-link:hover, .social-list-link:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.clients-list-link {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
+}
+
+.clients-list-link:hover, .clients-list-link:focus {
+  color: #2196f3;
+  border-color: #2196f3;
+}
+
+.link-logotipe-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.footer-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "";
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-list-link:hover, .footer-social-list-link:focus {
+  background-color: #2196f3;
+}
+
+.hero-btn {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.text-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.btn-portfolio {
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding: 6px 22px;
+}
+
+.btn-portfolio:hover, .btn-portfolio:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.hero-btn {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.text-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/*----------header----------*/
+.header {
+  background-color: #fff;
+}
+
+.header-content {
+  display: flex;
+  justify-content: start;
+}
+
+.navigation {
+  margin-right: auto;
+}
+
+.part-logotipe {
   color: #2196f3;
 }
 
@@ -428,10 +661,14 @@ button {
   color: #2196f3;
 }
 
+.header-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .current:after {
   content: "";
   display: block;
-  margin-top: 28px;
+  margin-top: 30px;
   border-bottom: 4px solid #2196f3;
   border-radius: 2px;
 }
@@ -439,10 +676,6 @@ button {
 .header-list {
   display: flex;
   padding-top: 32px;
-}
-
-.header-list-item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .connect-header {
@@ -453,8 +686,7 @@ button {
   color: #757575;
 }
 
-.connect-header:hover,
-.connect-header:focus {
+.connect-header:hover, .connect-header:focus {
   color: #2196f3;
 }
 
@@ -492,49 +724,7 @@ button {
   margin: 0 auto;
 }
 
-.hero-title {
-  font-weight: 700;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  text-transform: uppercase;
-  margin: 0;
-  margin-bottom: 30px;
-}
-
-.hero-btn {
-  width: 200px;
-  height: 50px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  outline: none;
-}
-
-.text-btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-}
-
 /*----------Advantages----------*/
-.advantages-title {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
-
 .advantages-list {
   display: flex;
   padding-top: 94px;
@@ -573,37 +763,7 @@ button {
   margin-right: 30px;
 }
 
-.list-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: #212121;
-  text-transform: uppercase;
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-.list-deskription {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
 /*----------What we are doing----------*/
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin: 0;
-  margin-bottom: 50px;
-  padding-top: 94px;
-}
-
 .doing-list {
   padding-bottom: 94px;
   display: flex;
@@ -618,30 +778,6 @@ button {
   margin-right: 30px;
 }
 
-.doing-text-link {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  background: rgba(47, 48, 58, 0.8);
-  padding-top: 27px;
-  padding-bottom: 27px;
-}
-
-.link-block {
-  position: relative;
-}
-
-.link-block .doing-text-link {
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-  width: 100%;
-}
-
 /*----------our comand----------*/
 .comand-section {
   background-color: #f5f4fa;
@@ -650,18 +786,6 @@ button {
 .comand-list {
   display: flex;
   padding-bottom: 94px;
-}
-
-.name-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin: 0;
-  margin-top: 30px;
-  margin-bottom: 10px;
 }
 
 .profession {
@@ -692,23 +816,6 @@ button {
   margin: 0 30px;
 }
 
-.social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  content: "";
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  color: #afb1b8;
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-
 .icon-social {
   fill: currentColor;
 }
@@ -723,25 +830,6 @@ button {
   margin-right: 30px;
 }
 
-.clients-list-link {
-  display: inline-block;
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #afb1b8;
-}
-
-.clients-list-link:hover,
-.clients-list-link:focus {
-  color: #2196f3;
-  border-color: #2196f3;
-}
-
 .icon-clients {
   fill: currentColor;
 }
@@ -754,6 +842,7 @@ button {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
+  opacity: 1;
   transition: all 0.8s ease 0s;
 }
 
@@ -870,11 +959,6 @@ button {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.input-chekbox:focus ~ .modal-link,
-.input-chekbox:hover ~ .modal-link {
   color: #2196f3;
 }
 
@@ -922,6 +1006,7 @@ button {
   top: 50%;
   left: 15px;
   transform: translateY(-50%);
+  pointer-events: none;
 }
 
 .modal-box {
@@ -940,17 +1025,6 @@ button {
 /*----------footer----------*/
 .footer {
   background-color: #2f303a;
-}
-
-.link-logotipe-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-  color: #212121;
-  padding-top: 60px;
-  margin-bottom: 20px;
 }
 
 .footer-logo {
@@ -990,17 +1064,6 @@ button {
   color: #ffffff;
 }
 
-.footer-list-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-bottom: 20px;
-  padding-top: 72px;
-}
-
 .join {
   padding-bottom: 100px;
   margin-left: 70px;
@@ -1010,24 +1073,8 @@ button {
   display: flex;
 }
 
-.footer-social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  content: "";
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
-}
-
 .footer-social-list-item:not(:last-child) {
   margin-right: 10px;
-}
-
-.footer-social-list-link:hover,
-.footer-social-list-link:focus {
-  background-color: #2196f3;
 }
 
 .icon-footer-social {

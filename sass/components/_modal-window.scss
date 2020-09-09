@@ -6,6 +6,7 @@
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
+  opacity: 1;
   transition: all 0.8s ease 0s;
 }
 .backdrop.is-hidden {
@@ -108,10 +109,6 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: $primary-text-color;
-}
-.input-chekbox:focus ~ .modal-link,
-.input-chekbox:hover ~ .modal-link {
   color: $accent-color;
 }
 .checkbox {
@@ -153,6 +150,7 @@
   top: 50%;
   left: 15px;
   transform: translateY(-50%);
+  pointer-events: none;
 }
 .modal-box {
   position: relative;

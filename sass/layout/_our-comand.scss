@@ -6,17 +6,6 @@
   display: flex;
   padding-bottom: 94px;
 }
-.name-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: $title-text-color;
-  margin: 0;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
 .profession {
   font-weight: 400;
   font-size: 16px;
@@ -32,30 +21,15 @@
   border-radius: 0px 0px 4px 4px;
   /* height: 368px; */
   width: 270px;
-}
-.comand-list-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .social-list {
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
   margin: 0 30px;
-}
-.social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  content: "";
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  color: #afb1b8;
-}
-.social-list-link:hover,
-.social-list-link:focus {
-  color: $primary-white-color;
-  background-color: $accent-color;
 }
 .icon-social {
   fill: currentColor;

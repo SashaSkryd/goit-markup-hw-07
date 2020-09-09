@@ -2,9 +2,13 @@
 @import "./utils/variables";
 @import "./base/base";
 @import "./base/container";
+@import "./components/title";
+@import "./components/description";
+@import "./components/links";
+@import "./components/buttons";
 
 @import "./layout/header";
-@import "./layout/\ parameter-menu";
+@import "./layout/parameter-menu";
 @import "./layout/cards";
 
 @import "./layout/footer";

@@ -1,0 +1,104 @@
+//header
+.link-logotipe {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: $title-text-color;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+.link-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.333;
+  letter-spacing: 0.02em;
+  color: $title-text-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+// What we are doing
+.doing-text-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+.link-block {
+  position: relative;
+  & .doing-text-link {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+  }
+}
+// our comand
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "";
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+  &:hover,
+  &:focus {
+    color: $primary-white-color;
+  background-color: $accent-color;
+  }
+}
+//regular clients
+.clients-list-link {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  border-color: $accent-color;
+  }
+}
+// footer
+.link-logotipe-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: $title-text-color;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+.footer-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "";
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
