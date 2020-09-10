@@ -682,23 +682,29 @@ button {
 }
 
 .hero-section {
-  max-width: 1600px;
+  width: 1600px;
   height: 600px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/hero/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
   display: flex;
 }
 
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-block {
-  text-align: center;
   width: 696px;
   margin: 0 auto;
 }
 
 .hero-btn {
+  display: block;
+  margin: 0 auto;
   width: 200px;
   height: 50px;
   background: #2196f3;
