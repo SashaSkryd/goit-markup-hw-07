@@ -382,7 +382,6 @@ button {
   margin: auto;
 }
 
-/*----------header----------*/
 .header {
   background-color: #fff;
 }
@@ -507,7 +506,6 @@ button {
   background-color: #2196f3;
 }
 
-/*----------cards----------*/
 .potfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -536,7 +534,8 @@ button {
   height: 404px;
 }
 
-.portfolio-list-item:not(:nth-child(3n)) {
+.p
+ortfolio-list-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
@@ -592,7 +591,6 @@ button {
   transition: 250ms ease;
 }
 
-/*----------footer----------*/
 .footer {
   background-color: #2f303a;
 }
@@ -739,5 +737,20 @@ button {
 
 .footer-social-list-link:hover, .footer-social-list-link:focus {
   background-color: #2196f3;
+}
+
+.mailing-btn {
+  display: flex;
+}
+
+.container-btn-footer {
+  padding-top: 108px;
+  padding-bottom: 94px;
+}
+
+.position-footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*# sourceMappingURL=portfolio.css.map */

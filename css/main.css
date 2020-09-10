@@ -388,7 +388,7 @@ button {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   transition: all 1s ease;
   transition-delay: 0s;
 }
@@ -411,7 +411,7 @@ button {
 }
 
 .is-hidden .modal {
-  transform: translateY(-200%) scale(0.1);
+  transform: translateX(-200%) scale(0.1);
   transition-delay: 0s;
 }
 
@@ -419,9 +419,9 @@ button {
   max-width: 528px;
   min-height: 581px;
   width: 100%;
+  margin: auto;
   position: relative;
   background-color: #fff;
-  margin: auto;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -579,7 +579,6 @@ button {
   padding-bottom: 40px;
 }
 
-/*----------header----------*/
 .header {
   background-color: #fff;
 }
@@ -670,7 +669,6 @@ button {
   color: #2196f3;
 }
 
-/*----------hero----------*/
 .hero-title {
   font-weight: 700;
   font-size: 44px;
@@ -786,7 +784,6 @@ button {
   margin-right: 30px;
 }
 
-/*----------What we are doing----------*/
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -837,7 +834,6 @@ button {
   width: 100%;
 }
 
-/*----------our comand----------*/
 .comand-section {
   background-color: #f5f4fa;
 }
@@ -872,7 +868,6 @@ button {
 .comand-list-item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  /* height: 368px; */
   width: 270px;
 }
 
@@ -907,7 +902,6 @@ button {
   fill: currentColor;
 }
 
-/* ----------Regular clients---------- */
 .clients-list {
   display: flex;
   padding-bottom: 94px;
@@ -939,7 +933,6 @@ button {
   border-color: #2196f3;
 }
 
-/*----------footer----------*/
 .footer {
   background-color: #2f303a;
 }
@@ -1086,5 +1079,20 @@ button {
 
 .footer-social-list-link:hover, .footer-social-list-link:focus {
   background-color: #2196f3;
+}
+
+.mailing-btn {
+  display: flex;
+}
+
+.container-btn-footer {
+  padding-top: 108px;
+  padding-bottom: 94px;
+}
+
+.position-footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,4 +1,4 @@
-/*----------hero----------*/
+
 .hero-title {
   font-weight: 700;
   font-size: 44px;
@@ -10,6 +10,7 @@
   margin: 0;
   margin-bottom: 30px;
 }
+
 .hero-section {
   max-width: 1600px;
   height: 600px;
@@ -25,11 +26,13 @@
   margin: 0 auto;
   display: flex;
 }
+
 .hero-block {
   text-align: center;
   width: 696px;
   margin: 0 auto;
 }
+
 .hero-btn {
   width: 200px;
   height: 50px;
@@ -39,6 +42,7 @@
   border: none;
   outline: none;
 }
+
 .text-btn {
   font-weight: 700;
   font-size: 16px;

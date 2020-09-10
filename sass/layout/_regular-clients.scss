@@ -1,14 +1,17 @@
-/* ----------Regular clients---------- */
+
 .clients-list {
   display: flex;
   padding-bottom: 94px;
 }
+
 .clients-list-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .icon-clients {
   fill: currentColor;
 }
+
 .clients-list-link {
   display: inline-block;
   width: 170px;

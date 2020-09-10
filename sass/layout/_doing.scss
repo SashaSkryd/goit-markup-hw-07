@@ -1,4 +1,4 @@
-/*----------What we are doing----------*/
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -10,10 +10,12 @@
   margin-bottom: 50px;
   padding-top: 94px;
 }
+
 .doing-list {
   padding-bottom: 94px;
   display: flex;
 }
+
 .doing-list-item {
   width: 370px;
   height: 294px;
@@ -21,6 +23,7 @@
     margin-right: 30px;
   }
 }
+
 .doing-text-link {
   font-weight: 700;
   font-size: 14px;
@@ -33,6 +36,7 @@
   padding-top: 27px;
   padding-bottom: 27px;
 }
+
 .link-block {
   position: relative;
   & .doing-text-link {

@@ -1,6 +1,7 @@
 .portfolio {
   border-bottom: 1px solid #ececec;
 }
+
 .buttom-list {
   display: flex;
   justify-content: center;
@@ -8,9 +9,11 @@
   padding-top: 94px;
   padding-bottom: 50px;
 }
+
 .buttom-list-item:not(:last-child) {
   margin: 8px;
 }
+
 .btn-portfolio {
   background: #f5f4fa;
   border-radius: 4px;
