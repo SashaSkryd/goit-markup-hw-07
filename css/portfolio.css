@@ -719,19 +719,11 @@ button {
   color: #ffffff;
 }
 
-.portfolio-action:after {
-  display: flex;
-  content: "";
-  display: block;
-  background-image: url(./svg/sprite.svg#icon-leter-footer);
+.icon-footer-btn {
   width: 24px;
   height: 24px;
   fill: #ffffff;
   margin-left: 10px;
-}
-
-.position-footer-btn {
-  position: absolute;
 }
 
 .footer-social-list-link {
