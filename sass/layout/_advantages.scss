@@ -1,8 +1,34 @@
 /*----------Advantages----------*/
+.advantages-title {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: $title-text-color;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+}
 .advantages-list {
   display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.list-deskription {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .advantages-list-item::before {
   display: block;

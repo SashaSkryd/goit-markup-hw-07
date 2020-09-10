@@ -2,6 +2,17 @@
 .comand-section {
   background-color: #f5f4fa;
 }
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $title-text-color;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
 .comand-list {
   display: flex;
   padding-bottom: 94px;
@@ -30,6 +41,21 @@
   justify-content: space-between;
   padding-bottom: 30px;
   margin: 0 30px;
+}
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "";
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+  &:hover,
+  &:focus {
+    color: $primary-white-color;
+    background-color: $accent-color;
+  }
 }
 .icon-social {
   fill: currentColor;
